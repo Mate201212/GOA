@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- საიტზე გამოიტანეთ თქვენს მიერ სასურველი ფოტო, შემდეგ ნასწავლი ატრიბუტების გამოყენებით, შეუცვალეთ ფოტოს სიმაღლე და სიგანე -->
+    <h1>My Favorite Image</h1>
+
+    <img src="my_favorite_image.jpg" alt="A beautiful landscape" width="400" height="300">
+
+    <!-- შექმენით რამოდენიმე გვერდიანი საიტი თქვენ საყვარელ ფილმზე, ამ საიტს აუცილებლად უნდა ჰქონდეს nav barი რომლის დახმარებით მომხმარებელს შეეძლება გადასვლა სასურველ გვერდის ნაწილზე, nav barში აუცილებლად უნდა ჰქონდეს home და about გვერდები(ანუ უნდა გააკეთოთ მინიმუმ 2 გვერდიანი საიტი) -->
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+
+    <h1>Welcome to My Favorite Movie Website</h1>
+    <p>This is the homepage where you can learn about my favorite movie.</p>
+
+
+    <!-- შექმენით form თეგი სადაც ჩასვავთ 3 labelს და 3 inputს, ამ inputებიდან ერთ-ერთი უნდა იყოს ორი radio ტიპის inputი ხოლო მეორე text ტიპის inputი, მომხმარებელს შემოატანინეთ მისი სახელი და ორი radio ტიპის Inputიდან აარჩევინეთ ერთ-ერთი -->
+
+    <h1>User Information Form</h1>
+
+    <!-- ფორმა -->
+    <form action="/submit_form" method="post">
+        <!-- სახელი -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+
+        <!-- სქესი (radio ტიპი) -->
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <!-- გაგზავნის ღილაკი -->
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
