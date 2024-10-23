@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<!--  
+    1. შექმენით სარეგისტრაციო ფორმა სადაც გექნებათ input element-ები, ემაილისთვის, პაროლისთვის, სახელისთვის, დაბადების თარიღისთვის, ასევე დაამატეთ checkbox (type attribute მეშვეობით) და ბოლოში დაამატეთ ღილაკი სადაც ეწერება Sign In. ასევე გამოიყენეთ label და for,id ატრიბუტების მეშვეობით დააკავშირეთ ყველა ინფუთ ელემენტი თავის label-ს. -->
+
+
+    <h2>Registration Form</h2>
+
+    <form>
+        <!-- Name -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+    
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+    
+        <!-- Password -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+    
+        <!-- Date of Birth -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob"><br><br>
+    
+        <!-- Checkbox -->
+        <label for="terms">
+            <input type="checkbox" id="terms" name="terms">
+            I agree to the terms and conditions
+        </label><br><br>
+    
+        <!-- Sign In Button -->
+        <input type="submit" value="Sign In">
+    </form>
+    
+</body>
+</html>
