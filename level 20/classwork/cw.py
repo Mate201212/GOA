@@ -24,8 +24,8 @@
 my_list = [10, 20, 30, 40, 50, 60]
 
 
-print("სიის სიგრძე:", len(my_list))
+print(len(my_list))
 
 
 for i in range(len(my_list)):
-    print(f"ელემენტი {i}: {my_list[i]}")
+    print("{i}: {my_list[i]}")
