@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ka">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <style>
+     
+      .fancy-box {
+        width: 100px;  
+        height: 100px; 
+        background: #e63946; 
+       
+        border-top-left-radius: 100px;
+        border-top-right-radius: 256px;
+        border-bottom-right-radius: 50px;
+        border-bottom-left-radius: 55px;
+        margin-bottom: 2rem; 
+      }
+
+  
+       
+       
