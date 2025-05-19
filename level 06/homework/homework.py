@@ -28,8 +28,6 @@ perform_operations()
 
 
 
-
-
 # Enter first name
 first_name = input("Enter your first name: ")
 
@@ -38,9 +36,6 @@ last_name = input("Enter your last name: ")
 
 # Print the full name
 print(f"Hello, {first_name} {last_name}! Welcome!")
-
-
-
 
 
 

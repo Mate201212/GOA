@@ -122,9 +122,6 @@ print(1 < 2 < 3)               # True
 
 
 
-
-
-
 # 1. ლოგიკური და (and)
 print((5 > 3) and (2 < 4))      # True
 print((5 > 3) and (2 > 4))      # False

@@ -1,16 +1,10 @@
 def register():
-    
     username = input(" ")
-    
     password = input("")
-    
-    
     confirm_password = input(" ")
 
-   
     age = int(input(" "))
 
-   
     if len(username) < 5:
         print("")
     elif len(password) < 8:
@@ -21,5 +15,4 @@ def register():
         print("")
     else:
         print(f"{username}!")
-
 register()
