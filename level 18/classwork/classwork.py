@@ -1,16 +1,8 @@
 def register():
-    
     username = input("): ")
-    
-    # მომხმარებლის პაროლი
     password = input("): ")
-    
     confirm_password = input(" ")
-
-    # მომხმარებლის ასაკი
     age = int(input(""))
-
-    # რეგისტრაციის ლოგიკა
     if len(username) < 5:
         print("")
     elif len(password) < 8:
@@ -21,6 +13,4 @@ def register():
         print("")
     else:
         print(f", {username}!")
-
-
 register()
